@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+	<title>
+		Formulário Felino
+	</title>
+	<meta charset="utf-8">
+	<meta name="autor" content="Nielda Karla">
+	<meta name="assunto" content="Formulário de pesquisa sobre gatos">
+	<link rel="icon" href="/img/favicon-32x32.png">
+  </head>
+  <body>
+    <header>
+        <h1>Formulário felino</h1>
+        <nav aria-label="navegação primária">
+          <ul>
+            <li><a href="/index.html">Página inicial</a></li>
+            <li><a href="/index.html#fatos">Fatos sobre gatos</a></li>
+            <li><a href="/fotos_de_gatos.html">Fotos de gatos</a></li>
+          </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+      <article id="formulario">
+        <h2>Formulário felino</h2>
+        <p>Responda essa pesquisa e nos ajude a entender mais sobre esses bichinhos lindos</p>
+        <p>PS: Se você quiser, pode anexar uma foto do seu gato para fazer parte de nossa galeria.</p>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>
+              Informações sobre o seu gato
+            </legend>
+            <p><label for="nomeGato">Qual é o nome do seu gato?</label>
+            <input type="text" name="nomeGato" id="nomeGato" placeholder="Garfield" autocomplete="on" required autofocus></p>
+            <p><label for="idadeGato">Quantos anos seu gato tem?</label>
+            <input type="number" name="idadeGato" id="idadeGato" placeholder="1" min="1" max="30" value="1" required></p>
+          </fieldset>
+        </form>
+      </article>
+      <hr>
+      <p><a href="#">Voltar ao topo</a></p>
+    </main>
+    <footer>
+	  <p>&lt; &copy; Copyright App Meu Gatinho Fofinho &gt;</p>
+    </footer>
+  </body>
+</html>
